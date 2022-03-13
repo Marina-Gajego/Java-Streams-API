@@ -98,14 +98,6 @@ public class Main {
     }
 
     private static void maisdeumoscar(){
-        System.out.println("\n Atrizes que receberam mais de um oscar: ");
-        List<Oscar> oscarList = leituraArquivo.getOscarList();
-        int cont =0;
-        for (Oscar string : oscarList){
-            if(string.equals(string.getNome())){
-                cont++;
-            }
-        }
     }
 
     private static void pesquisa(){
